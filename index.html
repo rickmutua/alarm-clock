@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <script type="text/javascript" src="build/js/app.js"></script>
+    <script src="bower_components/moment/min/moment.min.js"></script>
+    <link rel="stylesheet" href="scss/styles.scss">
+    <script type="text/javascript" src="js/interface.js">
+
+    </script>
+
+    <title>Alarm Clock</title>
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Set Your Alarm!</h1>
+
+          <body onload=dis()>
+            <BGSOUND id="BGSOUND_ID" LOOP=1 SRC="silence.wav">
+
+          <div id="time">
+              <label>Current Time:</label>
+              <input type=hidden id=d2 name=d2>
+              <input type=text id=hour name=hour size=1 class=time> :
+              <input type=text id=min name=min size=1 class=time> :
+              <input type=text id=sec name=sec size=1 class=time>
+            <br/>
+
+          </div>
+
+        <div id="set">
+            <label>Set Alarm:</label>
+            <select id=hour2 name=hour2 onChange="setv()">
+              <script type='text/javascript'>prtsel(25);</script>
+            </select> Hour
+            <select id=min2 name=min2 onChange="setv()">
+              <script type='text/javascript'>prtsel(61); </script>
+            </select> Minutes
+            <select id=sec2 name=sec2 onChange="setv()">
+              <label> <script type='text/javascript'>prtsel(61); </script> Hour </label>
+            </select> Seconds
+
+        </div>
+
+              <div id=msg>Alarm is OFF</div>
+
+      </div>
+    </form>
+
+        <audio src="The Weeknd - Secrets.mp3" id="song"> </audio>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+#action {
+  display: none;
+}
+
+
+#jsalarmclock{
+font-family: Tahoma;
+font-weight: bold;
+font-size: 12px;
+}
+
+#jsalarmclock div{
+margin-bottom: 0.8em;
+}
+
+#jsalarmclock div.leftcolumn{
+float: left;
+width: 150px;
+font-size: 13px;
+background-color: lightyellow;
+clear: left;
+}
+
+#jsalarmclock span{
+margin-right: 5px;
+}
+
+label {
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 14px;
+  width: 150px;
+  background-color: lightyellow;
+}
+
+.time { border-width: 0px; }
+
+#set {
+  margin-top: 15px;
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#msg {
+  margin-top: 15px;
+  text-align: center;
+}
+
+#time {
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+body {
+  text-align: center;
+}
